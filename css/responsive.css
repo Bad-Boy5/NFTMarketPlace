@@ -231,6 +231,8 @@
 
 
     /* making the footer section  */
+    .footer-logos{
+    }
     .top-footer-sec {
       display: block;
       width: 100%;
@@ -627,7 +629,11 @@ font-size: 3vw;
 }
 .explore-sec{
   width: 100%;
+  margin:2pc 0;
   align-items: start;
+}
+.footer-logos{
+  font-size: 7vw;
 }
 .footer-logo{
   margin: 1pc 0;
