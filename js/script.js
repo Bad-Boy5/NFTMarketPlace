@@ -14,15 +14,6 @@ setTimeout(() => {
 
 
 
-
-
-
-
-
-
-
-
-
 // burger.addEventListener("click",()=>{
 //     if(header.style.height==='400px'){
        

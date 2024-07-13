@@ -1,12 +1,17 @@
 @media only screen and (max-width: 1024px) {
   body {
     .nav-btn-sec {
-      width: auto;
+     width: 100%;
+     padding: 0;
+     display: flex;
+     justify-content: center;
     }
 
-    /* this is when we clicked the burger icon  */
-    .nav-logo-sec {
-      transition: "all ease-in-out 0.7px";
+ 
+
+  /* this is when we clicked the burger icon  */
+  .nav-logo-sec {
+    transition: "all ease-in-out 0.7px";
     }
     .vl-list {
       opacity: 0;
@@ -31,13 +36,15 @@
     }
     .line{
       height: 2px ;
-
+      
       width: 10px;
     }
     .line2{
       width: 16px;
     }
-
+    
+    .nav-list-sec ul li a {
+    margin: 0   ;
     .navbar {
       display: block;
       transition: all ease-in-out 0.7s;
@@ -200,7 +207,7 @@
       width: 75%;
     }
     .coming-txt {
-      font-size: 1.5vw;
+      font-size: 2vw;
     }
     .coming-heading {
       font-size: 4vw;
@@ -231,7 +238,11 @@
 
 
     /* making the footer section  */
+    .explore-sec{
+      margin:3pc 0;
+    }
     .footer-logos{
+      font-size:4vw;
     }
     .top-footer-sec {
       display: block;
@@ -246,19 +257,40 @@
     }
     .def-heading {
       margin-bottom: 1pc;
+
+    font-size: 2.5vw;
+    }
+    .footer-ul-list li{
+      font-size: 2vw;
+      
+    }
+    .footer-logo{
+      margin-top: 2pc;
+      margin-bottom: 1pc;
     }
     .footer-logo-txt {
-      font-size: 2.2vw;
+      font-size: 3vw;
       padding: 0;
       margin: 0;
       position: relative;
-      right: 1pc;
+      /* right: 1pc; */
+    }
+    .logos{
+      font-size: 3vw;
+    }
+    .logos-heading{
+      font-size: 2vw;
+      padding-bottom: 10px;
+      padding-top: 20px;
     }
 
     .cont-footer {
       margin: 0;
       flex-direction: column;
-      width: 50%;
+      width: 100%;
+    }
+    .cont-para{
+      font-size: 2vw;
     }
 
     .cont-mail-sec {
@@ -267,7 +299,7 @@
     }
     .cont-mail {
       /* display: flex; */
-      min-width: 86%;
+      min-width: 50%;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
       height: 50px;
@@ -297,6 +329,9 @@
       position: relative;
       right: 5pc;
     }
+    .cont-heading{
+      font-size: 3vw;
+    }
     .cont-btn:hover {
       color: #a259ff;
       background-color: #3b3b3b;
@@ -306,8 +341,20 @@
     }
 
     .footer hr {
-      margin: 3pc;
+      margin: 1pc;
     }
+    .id{
+      width: 40%;
+      padding:4px 10px;
+    }
+    .coming-logo{
+      width: 30px;
+      height: 30px;
+    }
+    .bottom-footer-sec p{
+      min-width: 100%;
+      font-size: 4vw;
+  }
   }
 }
 
@@ -463,6 +510,13 @@
 .coming-data{
   top:8%;
 }
+.cat-img-txt-name {
+  font-size: 4.2vw;
+}
+.cat-card-row{
+  margin-top: 0;
+}
+
 .coming-datas{
   flex-direction: column    ;
 }
@@ -576,9 +630,7 @@ font-size: 3vw;
   margin-top: 3pc;
   flex-direction: column;
 }
-.footer-logo-txt{
-  font-size: 5vw;
-}
+
 .con-para{
   line-height: 25.5px;
   font-size: 16px;
@@ -661,6 +713,33 @@ font-size: 3vw;
   border-radius: 20px;
   color: white;
 }
+.def-heading{
+  font-size: 4vw;
+  margin:10px 0;
+}
+.logos-heading {
+  font-size: 4vw;
+  padding-bottom: 10px;
+  /* padding-top: 20px; */
+  margin: 0;
+}
+.logos{
+  font-size: 5vw;
+}
+.footer-ul-list li{
+  font-size: 4vw;
+}
+.cont-heading {
+  font-size: 5.3vw;
+}
+.cont-para {
+  font-size: 5vw;
+}
+.footer-logo-txt{
+  font-size: 6vw;
 }
 
+
 }
+
+}}
