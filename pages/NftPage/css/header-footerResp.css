@@ -362,6 +362,10 @@ font-size: 20px;
     .nav-list-sec ul li a{
       font-size: 4.3vw;
     }
+    /* for footer  */
+.bottom-footer-sec p{
+  font-size: 3.5vw;
+}
   }
 }
 
