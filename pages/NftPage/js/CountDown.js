@@ -4,7 +4,7 @@ let sec=document.getElementById('b3')
 
 function countdown() {
     // Set the date we're counting down to
-    var countDownDate = new Date("July 16, 2024 15:00:00").getTime(); // Replace with your target date and time
+    var countDownDate = new Date("July 29, 2025 15:00:00").getTime(); // Replace with your target date and time
 
     // Update the countdown every 1 second
     var x = setInterval(function() {
