@@ -1,0 +1,61 @@
+@media screen and (max-width: 1024px){
+    body{
+        .disable-for-tab{
+            display: none;
+        }
+        .main-heading{
+            font-size: 5vw;
+        }
+        .sub-heading {
+            font-size: 3vw;
+        
+        }
+
+    }
+    }
+    
+    @media screen and (max-width: 850px){
+        body{
+            .bottom-txt {
+                font-size: 2.8vw;
+            }
+            .top-txt {
+                font-size: 2.5vw;
+                white-space: nowrap;
+            }
+            .logo-sec {
+                font-size: 3vw;
+            }
+            .menu-text-heading {
+                font-size: 4vw;
+                font-weight: 600;
+                color: white;
+            }
+
+            
+            
+        }
+    }
+
+
+    @media screen and (max-width: 425px){
+        body{
+            .disable-for-mob{
+                display: none;
+            }
+            .search-section{
+                margin: 3pc auto;
+            }
+
+
+            .main-heading{
+                font-size: 7.9vw;
+            }
+            .sub-heading {
+                font-size: 4vw;
+                font-weight: 400;
+                line-height: 25.2px;
+            }   
+  
+        }
+    }
