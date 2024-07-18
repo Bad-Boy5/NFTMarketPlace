@@ -662,11 +662,8 @@ margin-top: 0.5pc;
     margin: 5pc auto;
  max-height: 640px;
  overflow: hidden;
-background-repeat: no-repeat;
 position: relative; 
-background-size:cover ;
-background-position-y: 47%;
-background: linear-gradient(to bottom,rgba(153, 71, 255, 0) rgba(151, 71, 255, 1));
+background: linear-gradient(to bottom, rgba(162, 89, 240, 0),rgba(162, 89, 255, 1));
 }
 .mush-bg-image{
     max-height: 100%;
