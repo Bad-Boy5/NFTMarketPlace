@@ -10,11 +10,14 @@
             font-size: 3vw;
         
         }
+        .img-t-sec{
+            font-size: 2vw;
+        }
 
     }
     }
     
-    @media screen and (max-width: 850px){
+    @media screen and (max-width: 767px){
         body{
             .bottom-txt {
                 font-size: 2.8vw;
@@ -26,23 +29,60 @@
             .logo-sec {
                 font-size: 3vw;
             }
-            .menu-text-heading {
-                font-size: 4vw;
-                font-weight: 600;
-                color: white;
-            }
-
-            
-            
+           .menu-txt-heading{
+            font-size:2.8vw;
+           } 
+           .cat-label-sec{
+            justify-content: end;
+           }
+           .solding{
+            display: none;
+           }
+           .ranker-s-txt{
+            justify-content: end;
+           }
         }
     }
-
+    @media screen and (max-width: 633px){
+     body{
+         .disable-for-mob{
+             display: none;
+         }
+         .enable-for-mob{
+            display: block;
+         }
+         .changing{
+            display: none;
+         }
+         .id-sec{
+            width: 70%;
+         }
+         .img-t-sec{
+            font-size: 3vw;
+            line-height: 17.2px;
+         }
+        .ranker-s-txt{
+            width: 30%;
+        }
+        .changing-r{
+            width: 100%;
+            text-align: end;
+            font-size: 4vw;
+        }
+        .img-r-sec{
+            width: 40px;
+            height: 40px;
+            margin: auto 1pc auto 0.5pc;
+        }
+        .MtxtBlock{
+            white-space: nowrap;
+        }
+ }
+    }
 
     @media screen and (max-width: 425px){
-        body{
-            .disable-for-mob{
-                display: none;
-            }
+           body{ 
+            
             .search-section{
                 margin: 3pc auto;
             }

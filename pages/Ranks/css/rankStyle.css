@@ -2,6 +2,9 @@ body{
     color: white;
     font-family: "Work Sans";
 }
+.disable-for-pc{
+    display: none;
+}
 
 .search-section{
 
