@@ -102,6 +102,11 @@ max-height: 60%;
     width: 30%;
  padding-left:1pc;
 }
+.nav-btn-sec a{
+    text-decoration: none;
+
+    
+}
 .nav-button{
 white-space: nowrap;
     cursor: pointer;
